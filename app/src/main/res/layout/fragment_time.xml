@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.haya.user.TimeFragment"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/line1"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/path1"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/path2"
+        android:layout_marginBottom="30dp"
+        android:textAllCaps="false"
+        />
+
+<TextView
+android:layout_marginTop="30dp"
+    android:layout_width="350dp"
+    android:layout_height="70dp"
+    android:textSize="20dp"
+    android:textColor="@color/green"
+    android:text="@string/line2"
+    android:textAllCaps="false"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/path1"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/path2"
+        android:layout_marginBottom="30dp"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
